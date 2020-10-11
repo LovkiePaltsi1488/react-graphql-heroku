@@ -1,0 +1,11 @@
+{
+  "PORT": 5000,
+  "user": "Hackerbot1488",
+  "password": "R@in040101",
+  "mongoOptions": {
+    "useNewUrlParser": true,
+    "useUnifiedTopology": true,
+    "useCreateIndex": true,
+    "useFindAndModify": false
+  }
+}
