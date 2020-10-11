@@ -4,8 +4,7 @@
   "description": "graphql react app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server/app.js"
+    "start": "node server/app.js"
   },
   "keywords": [
     "react",
@@ -25,7 +24,13 @@
     "express-graphql": "^0.9.0",
     "graphql": "^15.1.0",
     "graphql-express": "^2.0.2",
-    "mongoose": "^5.9.20",
+    "mongoose": "^5.9.20"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LovkiePaltsi1488/react-graphql-heroku"
   }
 }
